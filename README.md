@@ -4,7 +4,7 @@ Analysis of all **7,057 road accidents with injured people in Hamburg in 2025**,
 I cleaned the raw data in **Excel**, checked and analysed it with **SQL (PostgreSQL)** and built a two-page dashboard in **Power BI**.
 
 ![Dashboard page 1](Dashboard/dashboard_page1_when.png)
-![Dashboard page 2](Dashboard/dashboard_page1_when.png)
+![Dashboard page 2](Dashboard/dashboard_page2_where_who.png)
 
 ---
 
