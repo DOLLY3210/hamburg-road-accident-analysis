@@ -3,12 +3,11 @@
 Analysis of all **7,057 road accidents with injured people in Hamburg in 2025**, using official open data.
 I cleaned the raw data in **Excel**, checked and analysed it with **SQL (PostgreSQL)** and built a two-page dashboard in **Power BI**.
 
-![Dashboard page 1](Dashboard/dashboard_page1_when.png)
-
+![Dashboard page 1](dashboard/dashboard_page1_when.png)
 
 ---
 
-## Business Questions
+## Goal
 
 The goal is to answer three questions that a city traffic department would ask:
 
@@ -20,7 +19,7 @@ The goal is to answer three questions that a city traffic department would ask:
 
 ---
 
-## Key Metrics
+## Key Numbers
 
 | Accidents | Fatal | Severe | Severe rate | Bicycle involved |
 |---|---|---|---|---|
@@ -30,7 +29,7 @@ That is about **19 accidents with injuries every day**.
 
 ---
 
-## Key Insights
+## Main Findings
 
 **1. Accidents follow working life.**
 Monday to Friday have 1,054 to 1,166 accidents each. Sunday has only 617, about half of Friday.
@@ -57,7 +56,7 @@ Bergedorf has the fewest accidents, but **17.7 % are severe**, 3x more than Eims
 Accidents with pedestrians are severe in 13.7 % of cases (1.6x the average).
 In darkness, 10.4 % of accidents are severe, compared to 7.6 % in daylight.
 
-![Dashboard page 2](Dashboard/dashboard_page2_where_who.png)
+![Dashboard page 2](dashboard/dashboard_page2_where_who.png)
 
 ---
 
@@ -73,7 +72,7 @@ These recommendations are based on accident data only. They should be checked wi
 
 ---
 
-## Methodology
+## How I Worked
 
 ### 1. Data cleaning (Excel)
 - Imported the national CSV file (semicolon separator, German decimal commas)
@@ -98,7 +97,7 @@ I also checked the new date column against the month and weekday from the source
 
 ---
 
-## Challenges and Solutions
+## Problems I Solved
 
 | Problem | Solution |
 |---|---|
@@ -133,21 +132,20 @@ I also checked the new date column against the month and weekday from the source
 
 ```
 hamburg-road-accident-analysis/
-├── Dashboard/
-│   ├── hamburg_road_accidents_2025.pbix
-│   ├── dashboard_page1_when.png
-│   └── dashboard_page2_where_who.png
 ├── data/
 │   └── hamburg_accidents_2025_clean.csv
 ├── excel/
-│   ├── hamburg_raw_data.xlsx
-│   └── hamburg_accidents_2025_clean.xlsx
+│   └── hamburg_accidents_2025.xlsx
 ├── sql/
 │   ├── 01_create_table.sql
 │   ├── 02_data_quality_checks.sql
 │   ├── 03_analysis_time.sql
 │   ├── 04_analysis_location.sql
 │   └── 05_analysis_risk.sql
+├── dashboard/
+│   ├── hamburg_road_accidents_2025.pbix
+│   ├── dashboard_page1_when.png
+│   └── dashboard_page2_where_who.png
 └── README.md
 ```
 
