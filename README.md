@@ -56,7 +56,7 @@ Bergedorf has the fewest accidents, but **17.7 % are severe**, 3x more than Eims
 Accidents with pedestrians are severe in 13.7 % of cases (1.6x the average).
 In darkness, 10.4 % of accidents are severe, compared to 7.6 % in daylight.
 
-![Dashboard page 2](dashboard/dashboard_page2_where_who.png)
+![Dashboard page 2](Dashboard/dashboard_page2_where_who.png)
 
 ---
 
