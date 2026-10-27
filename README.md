@@ -3,7 +3,7 @@
 Analysis of all **7,057 road accidents with injured people in Hamburg in 2025**, using official open data.
 I cleaned the raw data in **Excel**, checked and analysed it with **SQL (PostgreSQL)** and built a two-page dashboard in **Power BI**.
 
-![Dashboard page 1](dashboard/dashboard_page1_when.png)
+![Dashboard page 1](Dashboard/dashboard_page1_when.png)
 
 ---
 
