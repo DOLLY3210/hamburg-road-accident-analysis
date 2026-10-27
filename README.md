@@ -133,20 +133,21 @@ I also checked the new date column against the month and weekday from the source
 
 ```
 hamburg-road-accident-analysis/
+├── Dashboard/
+│   ├── hamburg_road_accidents_2025.pbix
+│   ├── dashboard_page1_when.png
+│   └── dashboard_page2_where_who.png
 ├── data/
 │   └── hamburg_accidents_2025_clean.csv
 ├── excel/
-│   └── hamburg_accidents_2025.xlsx
+│   ├── hamburg_raw_data.xlsx
+│   └── hamburg_accidents_2025_clean.xlsx
 ├── sql/
 │   ├── 01_create_table.sql
 │   ├── 02_data_quality_checks.sql
 │   ├── 03_analysis_time.sql
 │   ├── 04_analysis_location.sql
 │   └── 05_analysis_risk.sql
-├── dashboard/
-│   ├── hamburg_road_accidents_2025.pbix
-│   ├── dashboard_page1_when.png
-│   └── dashboard_page2_where_who.png
 └── README.md
 ```
 
